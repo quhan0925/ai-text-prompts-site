@@ -7,13 +7,18 @@
       name="description"
       content="免费中文 AI 视频提示词与 AI 文本提示词库，支持一键复制、组合复制与 RunningHub 画布嵌入。"
     />
-    <title>AI视频+文本提示词库 | RunningHub适配</title>
+    <title>智能提示词模板库 | RunningHub适配</title>
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <h1 id="pageTitle">专业影视拍摄效果提示词库</h1>
-      <p id="pageDesc">聚焦影视镜头与文本创作提示词，支持分类筛选、搜索、复制与组合，适配 RunningHub 画布。</p>
+      <div class="header-top">
+        <div>
+          <h1 id="pageTitle">智能提示词模板库</h1>
+          <p id="pageDesc">聚焦影视镜头与文本创作提示词，支持分类筛选、搜索、复制与组合，适配 RunningHub 画布。</p>
+        </div>
+        <button id="themeToggleBtn" class="theme-toggle" type="button" aria-label="切换黑白主题">黑色主题</button>
+      </div>
     </header>
 
     <main class="container">
@@ -35,6 +40,13 @@
           <button id="clearFiltersBtn" class="btn-ghost" type="button">清除筛选</button>
         </div>
         <div id="categoryGrid" class="category-grid"></div>
+        <div id="subFilterWrap" class="sub-filter-wrap">
+          <div class="sub-filter-head">
+            <strong>二级标签筛选</strong>
+            <button id="clearSubFiltersBtn" class="btn-ghost btn-mini" type="button">清空二级</button>
+          </div>
+          <div id="subCategoryChips" class="sub-category-chips"></div>
+        </div>
       </section>
 
       <section class="picked-panel">
@@ -48,9 +60,53 @@
         </div>
       </section>
 
+      <section class="level-filter-panel">
+        <span class="level-filter-label">难度筛选</span>
+        <div class="level-filter-actions">
+          <button class="level-filter-btn active" data-level="all" type="button">全部</button>
+          <button class="level-filter-btn" data-level="基础" type="button">基础</button>
+          <button class="level-filter-btn" data-level="进阶" type="button">进阶</button>
+          <button class="level-filter-btn" data-level="大师" type="button">大师</button>
+        </div>
+      </section>
+
       <section id="cardsCount" class="cards-count"></section>
       <section id="cardsGrid" class="cards-grid" aria-label="提示词卡片列表"></section>
     </main>
+
+    <section id="detailModal" class="detail-modal" aria-hidden="true">
+      <div class="detail-dialog">
+        <div id="detailCover" class="detail-cover"></div>
+        <div class="detail-panel">
+          <button id="detailCloseBtn" class="detail-close" type="button" aria-label="关闭">×</button>
+          <div class="detail-type" id="detailType"></div>
+          <h3 id="detailTitle"></h3>
+          <div class="detail-block">
+            <h4>详细说明</h4>
+            <p id="detailDesc" class="detail-desc"></p>
+          </div>
+          <div class="detail-block">
+            <h4>基础内容</h4>
+            <div id="detailVariants" class="detail-variants"></div>
+          </div>
+          <div class="detail-block">
+            <h4>关键词</h4>
+            <div id="detailTags" class="detail-tags"></div>
+          </div>
+          <div class="detail-block">
+            <h4>提示词</h4>
+            <p id="detailPrompt" class="detail-prompt"></p>
+          </div>
+          <div class="detail-block">
+            <h4>拍摄技巧 / 风格 / 重点</h4>
+            <div id="detailGear" class="detail-tags"></div>
+          </div>
+          <div class="detail-actions">
+            <button id="detailCopyBtn" class="btn-primary" type="button">复制当前提示词</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
