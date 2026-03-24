@@ -12,26 +12,44 @@
   </head>
   <body>
     <header class="site-header">
-      <h1>AI视频+文本提示词库</h1>
-      <p>免费、纯静态、即用即走。适配 RunningHub 无限画布嵌入。</p>
+      <h1 id="pageTitle">专业影视拍摄效果提示词库</h1>
+      <p id="pageDesc">聚焦影视镜头与文本创作提示词，支持分类筛选、搜索、复制与组合，适配 RunningHub 画布。</p>
     </header>
 
     <main class="container">
       <nav class="tabs" aria-label="提示词类型切换">
-        <button class="tab-btn active" data-tab="video-panel" type="button">AI视频提示词</button>
-        <button class="tab-btn" data-tab="text-panel" type="button">AI文本提示词</button>
+        <button class="tab-btn active" data-mode="video" type="button">AI视频提示词</button>
+        <button class="tab-btn" data-mode="text" type="button">AI文本提示词</button>
       </nav>
 
-      <section class="toolbar">
-        <div class="toolbar-left">
-          <strong id="selectedCount">已选 0 条</strong>
-          <span class="hint">可勾选多条并合并复制</span>
-        </div>
-        <button id="composeCopyBtn" class="btn-primary" type="button">合并复制</button>
+      <section class="search-wrap">
+        <label class="search-box" for="searchInput">
+          <span class="search-icon">🔍</span>
+          <input id="searchInput" type="text" placeholder="搜索标题、标签、提示词关键词..." />
+        </label>
       </section>
 
-      <section id="video-panel" class="panel active" aria-label="AI视频提示词内容区"></section>
-      <section id="text-panel" class="panel" aria-label="AI文本提示词内容区"></section>
+      <section class="filter-section">
+        <div class="section-head">
+          <h2>分类筛选</h2>
+          <button id="clearFiltersBtn" class="btn-ghost" type="button">清除筛选</button>
+        </div>
+        <div id="categoryGrid" class="category-grid"></div>
+      </section>
+
+      <section class="picked-panel">
+        <div>
+          <strong id="pickedInfo">已选择 0 个分类筛选</strong>
+          <div id="pickedTags" class="picked-tags"></div>
+        </div>
+        <div class="picked-actions">
+          <button id="composeCopyBtn" class="btn-primary" type="button">复制组合提示词</button>
+          <button id="clearPickedPromptsBtn" class="btn-ghost" type="button">清除勾选</button>
+        </div>
+      </section>
+
+      <section id="cardsCount" class="cards-count"></section>
+      <section id="cardsGrid" class="cards-grid" aria-label="提示词卡片列表"></section>
     </main>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
