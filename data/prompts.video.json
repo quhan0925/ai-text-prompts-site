@@ -1,0 +1,150 @@
+{
+  "section": "video",
+  "sectionLabel": "AI视频提示词",
+  "categories": [
+    {
+      "id": "video-basic-shot",
+      "name": "镜头基础",
+      "items": [
+        { "id": "vb-1", "title": "近景推镜人物开场", "prompt": "近景人物开场，镜头缓慢前推，主角眼神坚定，背景轻虚化，晨光轮廓光，电影感，4K。", "tags": ["近景", "推镜", "人物"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "清新", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-2", "title": "中景平移街头行走", "prompt": "中景跟拍人物街头行走，镜头平移稳定，路牌与霓虹形成节奏，画面干净，层次清晰。", "tags": ["中景", "平移", "街头"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "生活化", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-3", "title": "远景鸟瞰城市天际线", "prompt": "远景鸟瞰城市天际线，镜头缓慢前移，云层穿梭，晨雾薄透，史诗开场，8K。", "tags": ["远景", "鸟瞰", "城市"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "史诗", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-4", "title": "主观视角跑步镜头", "prompt": "主观视角穿行林荫道，轻微手持晃动，呼吸节奏同步，阳光斑驳，真实沉浸感。", "tags": ["主观", "手持", "沉浸"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "动感", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-5", "title": "低角度仰拍英雄感", "prompt": "低角度仰拍人物站立高楼前，风吹衣角，背景云层快速流动，强化力量感与英雄气质。", "tags": ["仰拍", "低角度", "力量"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "硬朗", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-6", "title": "高角度俯拍人群节奏", "prompt": "高角度俯拍广场人群流动，主体逆向行走突出，镜头缓慢下压，形成秩序与反差。", "tags": ["俯拍", "人群", "反差"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "叙事", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-7", "title": "拉镜揭示环境信息", "prompt": "先特写人物表情，再拉镜展示全景环境，情绪与空间同步释放，过渡自然流畅。", "tags": ["拉镜", "揭示", "全景"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "悬念", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-8", "title": "摇镜连接双主体", "prompt": "从左侧主体摇镜到右侧主体，动作接力完成叙事连接，背景光影连贯，节奏明确。", "tags": ["摇镜", "双主体", "连接"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "流畅", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-9", "title": "跟移拍摄追逐片段", "prompt": "中近景跟移拍摄追逐片段，镜头稳定器锁定主角，速度线明显，紧张感持续提升。", "tags": ["跟移", "追逐", "紧张"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "紧凑", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-10", "title": "定机位观测式镜头", "prompt": "固定机位观察咖啡馆窗边人物，路人前景遮挡偶尔掠过，生活感与纪录感兼具。", "tags": ["定机位", "观察", "纪录"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "自然", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-11", "title": "环视展示空间布局", "prompt": "相机中心环视室内空间，慢速旋转 180 度，展示动线与摆设细节，适合空间介绍。", "tags": ["环视", "空间", "展示"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "理性", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vb-12", "title": "近中远景三段递进", "prompt": "先近景手部动作，再中景人物互动，最后远景环境收束，三段式镜头递进叙事清晰。", "tags": ["近中远", "递进", "叙事"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "完整", "length": "long", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-advanced-shot",
+      "name": "高级镜头",
+      "items": [
+        { "id": "va-1", "title": "长镜头穿越咖啡馆", "prompt": "单一长镜头从门口推进到窗边，经过吧台与人群，焦点平滑转移，结尾停在主角特写。", "tags": ["长镜头", "焦点转移", "室内"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "叙事", "length": "long", "updatedAt": "2026-03-24" },
+        { "id": "va-2", "title": "推拉变焦心理冲击", "prompt": "人物静止站立，背景用推拉变焦制造空间扭曲感，情绪瞬间拉满，戏剧冲击明显。", "tags": ["推拉变焦", "心理", "冲击"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "悬疑", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-3", "title": "环拍主角情绪爆发", "prompt": "360 度环拍主角，背景灯光拉丝形成包围感，台词停顿时镜头微加速，张力更强。", "tags": ["环拍", "情绪", "张力"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "戏剧化", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-4", "title": "升降镜头揭示场景", "prompt": "镜头从桌面道具升起至全景，逐步揭示活动现场，信息层层展开，适合发布会场景。", "tags": ["升降", "揭示", "现场"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "专业", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-5", "title": "焦点拉移双人对话", "prompt": "双人对话中在前后景人物间焦点拉移，配合呼吸声和停顿，强化关系冲突。", "tags": ["焦点拉移", "对话", "冲突"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "戏剧", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-6", "title": "滑轨侧移叙事推进", "prompt": "滑轨侧移连续掠过三组人物动作，形成并行叙事，最后汇聚到核心事件。", "tags": ["滑轨", "侧移", "并行叙事"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "高级", "length": "long", "updatedAt": "2026-03-24" },
+        { "id": "va-7", "title": "旋转上升结尾镜头", "prompt": "镜头围绕主角旋转并缓慢上升，最终拉到俯视全景，结尾情绪释放强烈。", "tags": ["旋转", "上升", "结尾"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "史诗", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-8", "title": "镜中镜层次构图运动", "prompt": "借助镜面反射实现镜中镜，镜头前移穿过反射层，空间层级复杂且视觉高级。", "tags": ["镜中镜", "空间层次", "前移"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "艺术", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-9", "title": "甩镜转场衔接动作", "prompt": "甩镜制造运动模糊并衔接下一场同向动作，动势不断，适合快节奏混剪。", "tags": ["甩镜", "转场", "动作"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "快节奏", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-10", "title": "假一镜到底段落", "prompt": "通过遮挡物与光斑切点拼接成假一镜到底，镜头流畅无断裂，适合剧情短片。", "tags": ["假一镜到底", "遮挡切点", "剧情"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "电影化", "length": "long", "updatedAt": "2026-03-24" },
+        { "id": "va-11", "title": "跟随升格动作瞬间", "prompt": "动作瞬间使用升格慢动作，镜头同步跟随，水滴与碎片细节清晰，冲击感强。", "tags": ["升格", "慢动作", "细节"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "震撼", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "va-12", "title": "多平面调度长段落", "prompt": "前景中景后景三层人物同步调度，镜头持续推进并焦点切换，信息量高但清晰可读。", "tags": ["多平面", "调度", "推进"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "复杂", "length": "long", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-lighting",
+      "name": "布光与氛围",
+      "items": [
+        { "id": "vl-1", "title": "三点布光人物访谈", "prompt": "标准三点布光拍摄访谈，主光柔和，辅光控制反差，轮廓光分离背景，专业稳定。", "tags": ["三点布光", "访谈", "人物"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "专业", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-2", "title": "伦勃朗光电影肖像", "prompt": "伦勃朗光塑造人物面部体积，暗部保留细节，背景压暗，神秘与高级感并存。", "tags": ["伦勃朗", "肖像", "体积"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "高级", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-3", "title": "低光夜景悬疑氛围", "prompt": "低光环境中仅保留边缘高光，主体半隐半现，暗部层次清楚，悬疑感强。", "tags": ["低光", "夜景", "悬疑"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "暗黑", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-4", "title": "高调光清新广告感", "prompt": "高调布光减少阴影，白色背景纯净，肤色通透自然，整体明快，适合品牌广告。", "tags": ["高调光", "广告", "清新"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "明亮", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-5", "title": "剪影夕阳情绪镜头", "prompt": "逆光夕阳下人物剪影，地平线暖色渐变，动作缓慢，情绪诗意且克制。", "tags": ["剪影", "逆光", "夕阳"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "文艺", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-6", "title": "体积光穿窗尘埃感", "prompt": "晨光穿窗形成明显体积光束，空气尘埃可见，主角穿过光柱，画面具有仪式感。", "tags": ["体积光", "尘埃", "仪式感"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "神圣", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-7", "title": "霓虹混色赛博氛围", "prompt": "蓝紫粉三色霓虹交叉照亮人物侧脸，背景雾化，反射材质增强科技感。", "tags": ["霓虹", "赛博", "混色"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "科技", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-8", "title": "烛光暖调亲密场景", "prompt": "单烛光主照明，面部高光柔和闪烁，阴影轻微跳动，氛围亲密、温暖、复古。", "tags": ["烛光", "暖调", "亲密"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "温柔", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-9", "title": "冷蓝月光孤独氛围", "prompt": "冷蓝月光打在窗边人物，房间大面积暗部，留少量高光，孤独与静谧并存。", "tags": ["冷蓝", "月光", "孤独"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "克制", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-10", "title": "背光烟雾舞台效果", "prompt": "强背光配合烟雾，人物边缘光锐利，前景暗部压低，舞台感和冲击力显著。", "tags": ["背光", "烟雾", "舞台"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "张扬", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-11", "title": "商业产品轮廓打光", "prompt": "产品四周设置轮廓光勾边，主体正面柔光，背景渐变，强调材质与高级质感。", "tags": ["产品", "轮廓光", "材质"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "精致", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vl-12", "title": "雨夜车灯反射氛围", "prompt": "雨夜路面反射车灯，红蓝色块交错，人物站在光斑边缘，都市电影氛围浓厚。", "tags": ["雨夜", "反射", "都市"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "黑色电影", "length": "short", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-composition",
+      "name": "构图",
+      "items": [
+        { "id": "vc-1", "title": "三分法人物站位", "prompt": "主体置于三分交点，背景留白增强呼吸感，视觉重心稳定，适合情绪叙事镜头。", "tags": ["三分法", "留白", "重心"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "均衡", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-2", "title": "引导线通向主体", "prompt": "道路与建筑线条汇聚至主体，镜头缓慢推进，观众注意力自然被引导。", "tags": ["引导线", "推进", "聚焦"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "清晰", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-3", "title": "框架构图门窗包裹", "prompt": "用门框与窗框包裹人物形成二次构图，前景轻虚化，空间层次更丰富。", "tags": ["框架构图", "层次", "前景"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "电影化", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-4", "title": "对称构图庄严质感", "prompt": "中轴对称构图搭配静态镜头，建筑纵深清晰，营造庄严、有序、仪式化风格。", "tags": ["对称", "中轴", "仪式"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "庄重", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-5", "title": "黄金分割自然平衡", "prompt": "主体落在黄金分割点，背景元素按比例分布，画面自然耐看，视觉节奏舒适。", "tags": ["黄金分割", "平衡", "耐看"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "高级", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-6", "title": "大留白极简构图", "prompt": "主体占画面三分之一，其余留白承载文字空间，风格极简，适合封面与海报视频。", "tags": ["留白", "极简", "封面"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "清爽", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-7", "title": "前中后景层次构图", "prompt": "前景植物、中景人物、后景建筑三层分明，轻景深突出主体，空间深度明显。", "tags": ["前中后景", "层次", "景深"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "真实", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-8", "title": "负空间表达孤独感", "prompt": "主体极小置于角落，大面积负空间承载情绪，配冷色调，强化孤独主题。", "tags": ["负空间", "孤独", "冷色"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "情绪化", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-9", "title": "对角线动势构图", "prompt": "主体沿画面对角线移动，背景元素斜向呼应，运动方向明确，画面更有冲劲。", "tags": ["对角线", "动势", "运动"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "动感", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-10", "title": "中心构图时尚人像", "prompt": "主体位于中心并正面直视镜头，背景简化，强调服装与气场，时尚大片感明显。", "tags": ["中心构图", "时尚", "人像"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "先锋", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-11", "title": "重复图形节奏构图", "prompt": "利用重复窗格和灯位形成图形节奏，主体打破重复规律，视觉记忆点强。", "tags": ["重复", "节奏", "记忆点"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "设计感", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vc-12", "title": "曲线引导柔和叙事", "prompt": "利用弧形楼梯与河岸曲线引导视线，镜头缓推，叙事柔和且连续自然。", "tags": ["曲线", "引导", "柔和"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "治愈", "length": "short", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-color-style",
+      "name": "调色与风格",
+      "items": [
+        { "id": "vcs-1", "title": "青橙动作电影调色", "prompt": "青橙互补调色，肤色偏暖，阴影偏青，提升动作戏对比与冲击，画面干净锐利。", "tags": ["青橙", "动作", "高对比"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "硬朗", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-2", "title": "复古胶片褪色色调", "prompt": "轻褪色复古胶片风，黑位抬高、对比柔和、颗粒细腻，营造怀旧时间感。", "tags": ["复古", "胶片", "褪色"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "怀旧", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-3", "title": "冷蓝都市夜景调色", "prompt": "整体冷蓝基调，局部高光偏青，压低暖色信息，突出都市夜晚科技与距离感。", "tags": ["冷蓝", "都市", "夜景"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "冷峻", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-4", "title": "暖琥珀生活影像风格", "prompt": "暖琥珀色主导，肤色健康通透，阴影轻暖，生活片段显得温柔治愈且有烟火气。", "tags": ["暖琥珀", "生活", "治愈"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "温暖", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-5", "title": "低饱和文艺叙事风", "prompt": "整体低饱和与柔对比，减少颜色干扰，突出角色表演与叙事节奏，文艺感更强。", "tags": ["低饱和", "文艺", "叙事"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "克制", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-6", "title": "高对比商业广告风", "prompt": "黑白反差拉开，高光控制不过曝，色块干净有力，适合商业广告和品牌展示。", "tags": ["高对比", "广告", "品牌"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "商业", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-7", "title": "奶油色轻复古风格", "prompt": "奶油色调与柔焦质感结合，肤色细腻，明暗过渡平滑，适合清新女性向内容。", "tags": ["奶油色", "柔焦", "轻复古"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "柔和", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-8", "title": "黑色电影反差风格", "prompt": "强阴影与硬边高光并存，黑位深沉，局部亮部突出，营造黑色电影悬疑张力。", "tags": ["黑色电影", "强阴影", "悬疑"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "暗黑", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-9", "title": "霓虹赛博故障风格", "prompt": "紫粉蓝霓虹基底，叠加轻故障与扫描线，质感前卫，适合科技和未来主题。", "tags": ["霓虹", "故障", "赛博"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "未来", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-10", "title": "自然纪录片真实色彩", "prompt": "色彩还原真实，适度提升绿植与天空层次，避免过度调色，纪录片风格可信。", "tags": ["自然", "纪录片", "真实"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "纪实", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-11", "title": "日系清透轻空气感", "prompt": "高明度低对比，浅色偏暖，画面通透轻盈，适合日常 vlog 与治愈系短片。", "tags": ["日系", "清透", "治愈"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "清新", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vcs-12", "title": "国潮红金视觉风格", "prompt": "红金为主色，增强纹理细节与灯笼暖光，画面喜庆厚重，适配国潮文化内容。", "tags": ["国潮", "红金", "文化"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "东方", "length": "short", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-transition",
+      "name": "转场",
+      "items": [
+        { "id": "vt-1", "title": "淡入淡出情绪转场", "prompt": "上一镜头缓慢淡出到黑场，下一镜头淡入，节奏柔和，适合抒情段落。", "tags": ["淡入淡出", "抒情", "柔和"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "平缓", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-2", "title": "叠化连接时间流逝", "prompt": "两个时空画面进行叠化过渡，前后主体位置呼应，表达时间流逝自然。", "tags": ["叠化", "时间流逝", "呼应"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "怀旧", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-3", "title": "跳切强化节奏变化", "prompt": "同场景不同动作节点连续跳切，压缩时间并强化节奏，适合训练和制作过程。", "tags": ["跳切", "节奏", "压缩时间"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "高效", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-4", "title": "匹配剪辑动作连贯", "prompt": "利用同向动作与相似构图进行匹配剪辑，空间变化大但观感连贯。", "tags": ["匹配剪辑", "动作", "连贯"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "流畅", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-5", "title": "遮挡物擦拭转场", "prompt": "前景人群或柱体快速遮挡镜头完成擦拭转场，切点自然不突兀。", "tags": ["擦拭", "遮挡", "自然"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "灵活", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-6", "title": "甩镜动势无缝衔接", "prompt": "镜头快速甩向同方向模糊并切换下一场，保持动势连续，适合运动题材。", "tags": ["甩镜", "动势", "运动"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "动感", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-7", "title": "缩放变焦空间切换", "prompt": "镜头快速拉近到物体纹理后切换到新场景再拉出，空间切换干净利落。", "tags": ["缩放", "变焦", "空间切换"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "炫酷", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-8", "title": "光闪白场节拍转场", "prompt": "在音乐强拍处加入白闪过渡，切换镜头更有节拍感，常用于短视频混剪。", "tags": ["白闪", "节拍", "混剪"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "节奏", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-9", "title": "旋转镜头转场连接", "prompt": "上一镜头末尾旋转 90 度，下一镜头同角度继续旋转进入，视觉统一且高级。", "tags": ["旋转", "角度", "统一"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "创意", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-10", "title": "景深虚焦转场", "prompt": "先主动拉虚焦后切到下一镜头并从虚到实，过渡柔和，适合情绪场景。", "tags": ["虚焦", "景深", "柔和"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "情绪", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-11", "title": "镜像翻页创意转场", "prompt": "利用画面边缘镜像翻页效果切换场景，过渡具设计感，适合封面类内容。", "tags": ["镜像", "翻页", "设计感"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "时尚", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vt-12", "title": "声音桥先行转场", "prompt": "先引入下一场景环境声，再切换画面，实现声音桥转场，叙事更自然。", "tags": ["声音桥", "叙事", "自然"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "电影化", "length": "short", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-director-style",
+      "name": "风格与导演模仿",
+      "items": [
+        { "id": "vds-1", "title": "韦斯安德森对称美学", "prompt": "严格中轴对称构图、粉彩配色、平移镜头与正面表演，营造韦斯安德森式童趣秩序。", "tags": ["韦斯安德森", "对称", "粉彩"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "俏皮", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-2", "title": "诺兰式时间压迫感", "prompt": "低饱和写实风格，巨大空间与紧迫节奏并置，强调时间与选择的压迫感。", "tags": ["诺兰", "时间", "压迫"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "严肃", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-3", "title": "王家卫霓虹情绪流动", "prompt": "雨夜霓虹、慢门拖影、手持近景，人物情绪克制，记忆感与孤独感交织。", "tags": ["王家卫", "霓虹", "孤独"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "文艺", "length": "long", "updatedAt": "2026-03-24" },
+        { "id": "vds-4", "title": "赛博朋克未来都市", "prompt": "高密度霓虹广告牌、湿润反射地面、机械义体细节，构建赛博朋克未来都市氛围。", "tags": ["赛博朋克", "未来", "都市"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "未来", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-5", "title": "黑色电影悬疑叙事", "prompt": "高反差黑白光影、烟雾与百叶窗阴影，角色动机隐晦，黑色电影悬疑张力强。", "tags": ["黑色电影", "高反差", "悬疑"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "暗黑", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-6", "title": "复古怀旧胶片生活感", "prompt": "暖色偏黄，轻颗粒与轻抖动，街巷日常碎片感叙事，呈现复古怀旧温度。", "tags": ["复古", "胶片", "生活"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "怀旧", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-7", "title": "清新治愈自然风", "prompt": "高明度自然光、柔和风声与慢节奏剪辑，绿色植物与笑容特写构成治愈氛围。", "tags": ["清新", "治愈", "自然"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "治愈", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-8", "title": "科技感企业宣传风", "prompt": "冷色调空间、玻璃金属材质、流动数据 HUD 动效，整体科技感专业可信。", "tags": ["科技感", "企业", "HUD"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "专业", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-9", "title": "暗黑系力量视觉风", "prompt": "深色背景与硬边主光，角色低头抬眼动作，烟雾与低频音效强化力量压迫。", "tags": ["暗黑", "力量", "压迫"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "硬核", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-10", "title": "ins风极简生活记录", "prompt": "浅色留白、自然窗光、手作与咖啡细节，节奏舒缓，整体干净高级的 ins 风。", "tags": ["ins风", "极简", "生活"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "轻松", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-11", "title": "国潮风东方视觉叙事", "prompt": "红金配色、传统纹样与现代灯光融合，镜头强调服饰细节，国潮气质鲜明。", "tags": ["国潮", "东方", "纹样"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "文化", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vds-12", "title": "纪录片写实导演视角", "prompt": "自然环境声、长焦抓拍与真实人物反应，弱化表演痕迹，强调现场真实质感。", "tags": ["纪录片", "写实", "抓拍"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "纪实", "length": "short", "updatedAt": "2026-03-24" }
+      ]
+    },
+    {
+      "id": "video-lens-film",
+      "name": "镜头与胶片",
+      "items": [
+        { "id": "vlf-1", "title": "16mm粗颗粒纪录质感", "prompt": "16mm 镜头质感，颗粒明显，色彩略偏暖，画面有历史感与现场纪录氛围。", "tags": ["16mm", "颗粒", "纪录"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "粗粝", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-2", "title": "35mm电影叙事标准镜头", "prompt": "35mm 标准视角，空间关系自然，人物与环境平衡，叙事通用且电影感稳定。", "tags": ["35mm", "电影", "叙事"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "经典", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-3", "title": "50mm人像情绪特写", "prompt": "50mm 中长焦拍人物特写，背景柔化，面部细节清晰，情绪传达精准。", "tags": ["50mm", "人像", "特写"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "情绪", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-4", "title": "85mm长焦压缩空间", "prompt": "85mm 长焦压缩空间，人物与背景距离被拉近，构图更紧凑，情绪更集中。", "tags": ["85mm", "长焦", "压缩"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "凝练", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-5", "title": "24mm广角空间冲击", "prompt": "24mm 广角强化透视，前景夸张、空间纵深明显，适合动态场景与环境展示。", "tags": ["24mm", "广角", "透视"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "冲击", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-6", "title": "鱼眼镜头趣味变形", "prompt": "鱼眼镜头制造边缘变形，中心主体突出，画面有趣且适合潮流创意内容。", "tags": ["鱼眼", "变形", "创意"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "潮流", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-7", "title": "移轴镜头微缩城市感", "prompt": "移轴效果让城市像微缩模型，浅景深突出局部，画面新奇且辨识度高。", "tags": ["移轴", "微缩", "城市"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "奇趣", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-8", "title": "变形宽银幕电影比例", "prompt": "变形镜头宽银幕比例，横向光晕明显，画面史诗，适合宏大场景与广告。", "tags": ["变形镜头", "宽银幕", "光晕"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "宏大", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-9", "title": "VHS复古磁带质感", "prompt": "添加 VHS 扫描线、色偏与轻微噪点，保留主体可读性，复古年代感明确。", "tags": ["VHS", "扫描线", "噪点"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "怀旧", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-10", "title": "超级8家庭影像风格", "prompt": "Super 8 家庭影像质感，颗粒较粗、曝光波动轻微，情感真实亲密。", "tags": ["Super8", "家庭影像", "亲密"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "温情", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-11", "title": "胶片烧边艺术转场", "prompt": "画面边缘加入胶片烧边与漏光，过渡自然并带复古艺术气质，适合回忆段落。", "tags": ["烧边", "漏光", "艺术"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "艺术", "length": "short", "updatedAt": "2026-03-24" },
+        { "id": "vlf-12", "title": "电影颗粒长版复制模板", "prompt": "35mm 镜头视角，街头人物抓拍，胶片颗粒明显，轻微暗角，色彩偏暖，VHS 纹理微弱叠加，复古但清晰，电影质感。", "tags": ["35mm", "颗粒", "VHS"], "tools": ["Sora", "即梦AI", "Kling"], "tone": "复古", "length": "long", "updatedAt": "2026-03-24", "copyVariant": { "short": "35mm 胶片街拍，暖色复古，颗粒感与轻暗角，VHS 微纹理。", "long": "35mm 镜头视角，街头人物抓拍，胶片颗粒明显，轻微暗角，色彩偏暖，VHS 纹理微弱叠加，复古但清晰，电影质感。" } }
+      ]
+    }
+  ]
+}
